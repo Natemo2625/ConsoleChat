@@ -1,6 +1,6 @@
 {
   "name": "ConsoleChat",
-  "version": "1.0.0",
+  "version": "1.2.3",
   "description": "Command-Line Chat Node Module for Discord.js Bots",
   "main": "index.js",
   "scripts": {
