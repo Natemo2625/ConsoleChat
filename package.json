@@ -1,0 +1,23 @@
+{
+  "name": "ConsoleChat",
+  "version": "1.0.0",
+  "description": "Command-Line Chat Node Module for Discord.js Bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natemo6348/ConsoleChat.git"
+  },
+  "keywords": [],
+  "author": "Original: kasamikona | New: Natemo6348",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natemo6348/ConsoleChat/issues"
+  },
+  "homepage": "https://github.com/Natemo6348/ConsoleChat#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
