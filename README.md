@@ -1,5 +1,5 @@
 # Currently Maintained Version
-You may find the original version here (https://github.com/kasamikona/ConsoleChat).
+You may find the original version [here](https://github.com/kasamikona/ConsoleChat).
 
 # ConsoleChat
 Command-Line Chat Node Module for Discord.js Bots
