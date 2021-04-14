@@ -21,7 +21,7 @@ var gamma = 1.2;
 
 var client;
 
-const versionString = "v1.2.3";
+const versionString = "v1.2.4";
 
 module.exports.setIgnoreBots = (ignore = true) => {ignoreBots = ignore;};
 module.exports.setUseTimestamps = (use = true) => {useTimestamps = use;};
