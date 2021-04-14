@@ -373,7 +373,7 @@ function processCommand(d) {
                 }
             })
             return true; // waiting
-        } else if(command == "listservers" || command == "listguilds" || command == "servers") {
+        } else if(command == "listservers" || command == "listguilds" || command == "servers" || command == "guilds") {
             console.log("Available servers:");
             client.guilds.cache.forEach(server => console.log("  " + server.name + ', ' + server.id));
         } else if(command == "listchannels" || command == "channels") {
@@ -409,8 +409,8 @@ function processCommand(d) {
             console.log(`  ${prefix}help: Display this message`);
             console.log(`  ${prefix}server <server>: Connect to a joined server (alias ${prefix}guild)`);
             console.log(`  ${prefix}channel <channel>: Connect to a different channel on the current server`);
-            console.log(`  ${prefix}listservers: List all authorized servers (alias ${prefix}listguilds)`);
-            console.log(`  ${prefix}listchannels [server]: List channels on a joined server or the current server`);
+            console.log(`  ${prefix}listservers: List all authorized servers (aliases ${prefix}listguilds, ${prefix}servers, or ${prefix}guilds)`);
+            console.log(`  ${prefix}listchannels [server]: List channels on a joined server or the current server (alias ${prefix}channels`);
             console.log(`  ${prefix}deauth [server]: Quit a joined server or the current server`);
             console.log(`  ${prefix}delete: Delete the previously sent message (alias ${prefix}del)`);
             console.log(`  ${prefix}cls: Clear the screen`);
