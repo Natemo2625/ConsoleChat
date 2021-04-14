@@ -373,10 +373,10 @@ function processCommand(d) {
                 }
             })
             return true; // waiting
-        } else if(command == "listservers" || command == "listguilds") {
+        } else if(command == "listservers" || command == "listguilds" || command == "servers") {
             console.log("Available servers:");
-            client.guilds.cache.forEach(server => console.log("  " + server.name));
-        } else if(command == "listchannels") {
+            client.guilds.cache.forEach(server => console.log("  " + server.name + ', ' + server.id));
+        } else if(command == "listchannels" || command == "channels") {
             var serverArg = argsJoined;
             var server;
             if(args.length > 0){
@@ -394,7 +394,7 @@ function processCommand(d) {
             }
             var channels = getAllChannels(server);
             console.log(`Available channels for ${args.length > 0 ? "server " + server.name : "current server"}:`);
-            channels.forEach(channel => console.log("  #" + channel.name));
+            channels.forEach(channel => console.log("  #" + channel.name + ', ' + channel.id));
         } else if(command == "stop") {
             mainInputSuspended = true;
             stopFunction();

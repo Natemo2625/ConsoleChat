@@ -14,7 +14,7 @@ Features:
 Basic setup (in your main bot script):
 ```javascript
 const Discord = require('discord.js')
-const client = new Discord.Client({disableEveryone: true})
+const client = new Discord.Client()
 const consoleChat = require('./consoleChat.js')
 ...
 
