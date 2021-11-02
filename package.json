@@ -19,10 +19,10 @@
   "homepage": "https://github.com/Natemo6348/ConsoleChat#readme",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "dotenv": "^8.6.0",
+    "dotenv": "^10.0.0",
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
     "path": "^0.12.7",
-    "webpack": "^5.42.1"
+    "webpack": "^5.61.0"
   }
 }
