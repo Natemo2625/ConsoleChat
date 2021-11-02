@@ -1,6 +1,7 @@
 v1.2.4:
 - Added aliases for listchannels and listservers
 - Returns channel and server IDs when listing
+- Messages from users now also include user IDs
 v1.2.3:
 - Update for Discord.js v12
 - Fix "failed to send message" error overwriting message
