@@ -77,8 +77,8 @@ function outputMessageMember(member) {
         if(useTimestamps) timeString += " (" + ((new Date()).toTimeString().substring(0, 8)) + ")";
         var badgeString = "";
         if(useBotBadges && member.user.bot) badgeString = consoleBotBadge();
-        var newUserString = `\n${consoleColorForMember(member)}${member.displayName}${consoleColorReset()}${badgeString}${timeString}:`;
-        console.log(newUserString + ' ' + member.user.id);
+        var newUserString = `\n${consoleColorForMember(member)}${member.displayName}${consoleColorReset()}${badgeString}${timeString} ID: ${member.user.id}:`;
+        console.log(newUserString);
         lastDisplayedUserId = member.user.id;
     }
 }
