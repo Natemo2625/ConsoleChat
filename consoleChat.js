@@ -1,5 +1,5 @@
-/* RECENT CHANGES (internal use) - v1.2.3 to v1.2.4
-*/
+// RECENT CHANGES (internal use) - v1.2.3 to v1.2.4
+
 
 var readline = require('readline');
 
