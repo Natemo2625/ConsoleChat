@@ -52,3 +52,6 @@ Additional configuration functions:
 * consoleChat.setStopFunction(function): Specify a function to run for the '/stop' command (default: `process.exit()`)
 * consoleChat.setPromptPrefix(prefix): Specify a prompt prefix string (default: `"> "`)
 * consoleChat.setGamma(value): Set the gamma value for color calculations (default: `1.2`)
+
+# Suggestions
+Feel free to make a new issue with your suggestion and it may get added! (no template yet)
