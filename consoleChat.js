@@ -46,7 +46,7 @@ module.exports.onMessage = (message) => {
       outputMessageSpecial("File", file.url);
     });
     message.embeds.forEach((embed) => {
-      outputMessageSpecial("Embed", embed.title);
+      outputMessageSpecial("Embed", embed.title + " " +  embed.description);
     });
     restoreCursor();
   }
