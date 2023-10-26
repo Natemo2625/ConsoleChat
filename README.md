@@ -1,4 +1,4 @@
-# Currently Maintained Version
+# Currently Maintained Version (rewriting soon, finally)
 You may find the original version [here](https://github.com/kasamikona/ConsoleChat).
 
 # ConsoleChat
